@@ -1,10 +1,10 @@
 /* # vim: syn=css */
 /**
   TeamSpeak 3 QT Stylesheet
-  Created for DarkenTS
+  Created for DarkenTS Extended
   Licensed under CC BY-NC-SA 4.0 - https://creativecommons.org/licenses/by-nc-sa/4.0/
   By @Brady_The, modified by @Bluscream
-  Last updated: 11/21/2016
+  Last updated: 12/08/2016
 **/
 
 QWidget#NewsBanner { /* Font colour News Ticker (for some reason my design requires it to be on top of the document to work) */

@@ -1,57 +1,11 @@
-<!--
-TeamSpeak 3 Client Infoframe Template (EN)
-Copyright (c) Sven 'ScP' Paulsen
-
-The replaceable variables are embedded in "%%" like %%CLIENT_NAME%%. At this time you can 
-also use %%?CLIENT_NAME%% (note the questionmark), which is a tiny "if"- query. Use it to 
-remove the whole line, if a variable is empty or just "0".
-
-Templates can be placed in "styles/" for default theme or in a sub folder named like an available 
-theme (e.g. "styles/bluesky/"). Be aware that this template will not automaticly be translated when 
-displayed.
-
-Predefined values have to be inside the html comment-tag to make sure that they will be parsed
-before the replacing begins!
-
-Options (remove the "#" to enable):
-%%AVATAR_MAX_WIDTH%%128
-%%AVATAR_MAX_HEIGHT%%128
-#%%CLIENT_SERVER_SHOW_MAX_GROUPS%%3
-
-Replacable variables for clients:
-CLIENT_NAME
-CLIENT_NAME_PERCENT_ENCODED
-CLIENT_CUSTOM_NICK_NAME
-CLIENT_COUNTRY_TOOLTIP
-CLIENT_COUNTRY_IMAGE
-CLIENT_ID
-CLIENT_ICON
-CLIENT_UNIQUE_ID
-CLIENT_AWAY_MESSAGE
-CLIENT_PLATFORM
-CLIENT_VERSION
-CLIENT_VERSION_SHORT
-CLIENT_VERSION_STATE
-CLIENT_DESCRIPTION
-CLIENT_TOTALCONNECTIONS
-CLIENT_CREATED
-CLIENT_LASTCONNECTED
-CLIENT_CONNECTED_SINCE
-CLIENT_FLAG_AVATAR
-CLIENT_IGNORE_AVATAR
-AVATAR_MAX_WIDTH
-AVATAR_MAX_HEIGHT
-CLIENT_TALK_REQUEST_TIME
-CLIENT_TALK_REQUEST_MSG
-CLIENT_VOLUME_MODIFIER
-CLIENT_CHANNEL_GROUP_NAME
-CLIENT_CHANNEL_GROUP_ICON
-CLIENT_SERVER_GROUP_NAME
-CLIENT_SERVER_GROUP_ICON
-CLIENT_DATABASE_ID
-CLIENT_SERVER_SHOW_MAX_GROUPS
-PLUGIN_INFO_DATA
+<!-- # vim: syn=css
+  TeamSpeak 3 Client Infoframe Template (EN)
+  Created for DarkenTS Extended
+  By Sven 'ScP' Paulsen, modified by Bluscream
+  Last updated: 12/08/2016
 -->
+
+<style type="text/css">@import url('styles/DarkenTS Extended/style.css');</style>
 
 <!-- begin dummy container including tooltip (single line html table) -->
 

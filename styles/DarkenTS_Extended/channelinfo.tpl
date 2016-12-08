@@ -1,45 +1,11 @@
-<!--
-TeamSpeak 3 Channel Infoframe Template (EN) 
-Copyright (c) Sven 'ScP' Paulsen
- 
-The replaceable variables are embedded in "%%" like %%CHANNEL_NAME%%. At this time you can also use 
-%%?CHANNEL_NAME%% (note the questionmark), which is a tiny "if"- query. Use it, to remove the whole 
-line, if a variable is empty or just "0".
-
-Templates can be placed in "styles/" for default theme or in a sub folder named like an available 
-theme (e.g. "styles/bluesky/"). Be aware that this template will not automaticly be translated when 
-displayed.
-
-Predefined values have to be inside the html comment-tag to make sure that they will be parsed
-before the replacing begins!
-
-Options (remove the "#" to enable):
-#%%IMAGES_MAX_WIDTH%%256
-#%%IMAGES_MAX_HEIGHT%%256
-
-Replacable variables for channels:
-CHANNEL_NAME
-CHANNEL_ID
-CHANNEL_ICON
-CHANNEL_TOPIC
-CHANNEL_MAXCLIENTS
-CHANNEL_MAXFAMILYCLIENTS
-CHANNEL_NEEDED_TALK_POWER
-CHANNEL_ORDER
-CHANNEL_CODEC
-CHANNEL_CODEC_BITRATE
-CHANNEL_FLAGS
-CHANNEL_SUBSCRIPTION
-CHANNEL_CLIENTS_COUNT
-CHANNEL_VOICE_DATA_ENCRYPTED
-CHANNEL_VOICE_DATA_ENCRYPTED_FLAG
-CHANNEL_DESCRIPTION
-TEMP_CHANNEL_DELETE_DELAY
-TEMP_CHANNEL_TIME_TO_DELETE
-PLUGIN_INFO_DATA
-IMAGES_MAX_WIDTH
-IMAGES_MAX_HEIGHT
+<!-- # vim: syn=css
+  TeamSpeak 3 Channel Infoframe Template (EN)
+  Created for DarkenTS Extended
+  By Sven 'ScP' Paulsen, modified by Bluscream
+  Last updated: 12/08/2016
 -->
+
+<style type="text/css">@import url('styles/DarkenTS Extended/style.css');</style>
 
 <!-- begin dummy container including tooltip (single line html table) -->
 
