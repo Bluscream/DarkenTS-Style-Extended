@@ -1,4 +1,3 @@
-*
 !styles/DarkenTS/gfx/platforms
 !styles/DarkenTS/style.css
 !styles/DarkenTS/channelinfo.tpl
@@ -7,3 +6,4 @@
 !styles/DarkenTS/tree_tooltip_channel.tpl
 !styles/DarkenTS/tree_tooltip_client.tpl
 !styles/DarkenTS/tree_tooltip_server.tpl
+*
