@@ -26,7 +26,7 @@
     </tr>
     <tr><td class="Label">Created:</td><td>%%CLIENT_CREATED%% (%%CLIENT_TOTALCONNECTIONS%%)</td></tr>
     <tr><td class="Label">Online since:</td><td>%%?CLIENT_CONNECTED_SINCE%%</td></tr>
-    <tr><td class="Label">Description:</td><td><a class="reset" href="%%?CLIENT_DESCRIPTION%%">%%CLIENT_DESCRIPTION%%</a></td></tr>
+    <tr><td class="Label">Description:</td><td><a class="reset" href="https://adguardteam.github.io/AnonymousRedirect/redirect.html?url=%%?CLIENT_DESCRIPTION%%">%%CLIENT_DESCRIPTION%%</a></td></tr>
     <tr><td class="Label">Volume Modifier:</td><td class="Important">%%?CLIENT_VOLUME_MODIFIER%% dB</td></tr>
     <tr><td class="Label">ID:</td><td>%%?CLIENT_ID%%</td></tr>
     <tr><td class="Label">DBID:</td><td>%%?CLIENT_DATABASE_ID%%</td></tr>

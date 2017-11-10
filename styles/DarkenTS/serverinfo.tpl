@@ -20,7 +20,7 @@
       <td class="Bottom">%%SERVER_PLATFORM%%
       &nbsp;<img height="12" width="12" src="styles:/DarkenTS/gfx/platforms/%%?SERVER_PLATFORM%%"/>
     </tr>
-    <tr><td class="Label">License:</td><td><a class="reset" href="http://hosting.teamspeakusa.com/">%%?SERVER_LICENSE%%</a></td></tr>
+    <tr><td class="Label">License:</td><td><a class="reset" href="https://adguardteam.github.io/AnonymousRedirect/redirect.html?url=http://hosting.teamspeakusa.com">%%?SERVER_LICENSE%%</a></td></tr>
     <tr><td class="Label">Address:</td><td>%%?SERVER_ADDRESS%%
 	    :%%?SERVER_PORT%%
   	</td></tr>

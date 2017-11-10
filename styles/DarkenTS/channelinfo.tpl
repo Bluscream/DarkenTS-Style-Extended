@@ -14,7 +14,7 @@
   </div>
   <hr/>
   <table class="InfoFrame_Table">
-    <tr><td class="Label">Topic:</td><td><a class="reset" href="%%?CHANNEL_TOPIC%%">%%CHANNEL_TOPIC%%</a></td></tr>
+    <tr><td class="Label">Topic:</td><td><a class="reset" href="https://adguardteam.github.io/AnonymousRedirect/redirect.html?url=%%?CHANNEL_TOPIC%%">%%CHANNEL_TOPIC%%</a></td></tr>
     <tr>
       <td class="Label">Audio Codec:</td>
       <td>%%CHANNEL_CODEC%%&nbsp;(%%CHANNEL_CODEC_BITRATE%%)
