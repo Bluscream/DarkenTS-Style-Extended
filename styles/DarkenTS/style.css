@@ -31,5 +31,11 @@ td.list{padding: 0px 1px 0px 8px}
   font-weight:bold
 }
 .small{font-size:7pt}
-.icon{max-width:16px; max-height:16px}
-.reset{color:white!important}
+.icon{max-width:12; max-height:12}
+.reset{color:white}
+.truncate{
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis
+}

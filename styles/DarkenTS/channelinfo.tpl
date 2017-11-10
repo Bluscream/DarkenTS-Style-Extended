@@ -1,4 +1,4 @@
-<!-- # vim: syn=css
+<!-- # vim: syn=html
   TeamSpeak 3 Channel Infoframe Template (EN)
   Created for DarkenTS Extended
   By Sven 'ScP' Paulsen, modified by Bluscream
@@ -10,19 +10,19 @@
     <img src="%%?CHANNEL_ICON%%" alt="
     <img src='iconpath:CHANNEL_GREEN' alt='' width='16' height='16' />
     %%?CHANNEL_ICON%%" title="Channel Icon" width="16" height="16" />
-    &nbsp;
-    <a href="channelid://%%CHANNEL_ID%%" class="TextMessage_ChannelLink">%%CHANNEL_NAME%%</a>
+    &nbsp;<a style="color:lightblue" href="channelid://%%CHANNEL_ID%%" class="TextMessage_ChannelLink">%%CHANNEL_NAME%%</a>
   </div>
   <hr/>
   <table class="InfoFrame_Table">
-    <tr><td class="Label">Topic:</td><td>%%?CHANNEL_TOPIC%%</td></tr>
+    <tr><td class="Label">Topic:</td><td><a class="reset" href="%%?CHANNEL_TOPIC%%">%%CHANNEL_TOPIC%%</a></td></tr>
     <tr>
       <td class="Label">Audio Codec:</td>
-      <td>
-        %%CHANNEL_CODEC%%
-        &nbsp;<img src="styles:/DarkenTS/gfx/lock.png" alt="%%?CHANNEL_VOICE_DATA_ENCRYPTED_FLAG%%" />
+      <td>%%CHANNEL_CODEC%%&nbsp;(%%CHANNEL_CODEC_BITRATE%%)
+        &nbsp;<img height="13" width="13" src="iconpath:CHANNEL_PRIVATE" alt="%%?CHANNEL_VOICE_DATA_ENCRYPTED_FLAG%%" />
       </td>
     </tr>
+    <tr><td class="Label">ID:</td><td>%%?CHANNEL_ID%%</td></tr>
+    <tr><td class="Label">Icon:</td><td class="truncate" id="test"><script type="text/javascript">document.getElementById("test").innerHTML="%%CHANNEL_ICON%%".split('icon_')[1];</script>%%?CHANNEL_ICON%%</td></tr>
     <tr><td class="Label">Properties:</td><td class="Highlight">%%?CHANNEL_FLAGS%%</td></tr>
     <tr><td class="Label">Delete Timer:</td><td class="Highlight">%%?TEMP_CHANNEL_TIME_TO_DELETE%%</td></tr>
     <tr><td class="Label">Current Clients:</td><td>%%?CHANNEL_CLIENTS_COUNT%% / %%CHANNEL_FLAG_MAXCLIENTS%%</td></tr>
