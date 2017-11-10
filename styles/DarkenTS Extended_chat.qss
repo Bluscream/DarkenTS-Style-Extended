@@ -6,18 +6,13 @@
   By @Brady_The, modified by @Bluscream
   Last updated: 12/08/2016
 **/
-
 /* @group Global Elements */
-
 p {
 	padding: 0px;
 	margin: 0px;
 }
-
 /* @end */
-
 /* ----- Link Style ---- */
-
 a,
 a:visited {
 	color: rgb(57,165,221);
@@ -25,77 +20,60 @@ a:visited {
 		text-decoration: none;
 	outline: none;
 }
-
 /* ---- END ---- */
-
 /* @group Time and History Elements */
-
 .TextMessage_Time {
     color: rgb(149,165,166);
 		font-weight: normal;
 }
-
 .TextMessage_BeginHistory,
 .TextMessage_EndHistory {
     color: rgb(149,165,166);
 		font-style: italic;
 }
-
 /* @end */
-
 /* @group Object Link Elements */
-
 .TextMessage_UserLink { /* User Name */
 	color: rgb(23,151,81);
 		font-weight: bold;
 		text-decoration: none;
 }
-
 .TextMessage_OfflineLink, /* Channel Name */
 .TextMessage_ChannelLink {
 	color: rgb(230,126,34);
 		font-weight: bold;
 		text-decoration: none;
 }
-
 /* @end */
-
 /* @group Colored Message Elements */
-
 .TextMessage_HostName, /* Server Address */
 .TextMessage_ServerLink	{ /* Server Name */
 	color: rgb(249,101,93);
 		font-weight: bold;
 }
-
 .TextMessage_Welcome,
 .TextMessage_HostMessage {
 	color: rgb(216,216,216);
 		font-weight: bold;
 }
-
 .TextMessage_Message,
 .TextMessage_Poke,
 .TextMessage_Normal,
 .TextMessage_Connected,
 .TextMessage_ClientConnected,
 .TextMessage_ClientJoined,
-
 .TextMessage_Disconnected,
 .TextMessage_ClientDisconnected,
 .TextMessage_ClientSwitched,
 .TextMessage_ClientLeft,
-
 .TextMessage_ClientDropped,
 .TextMessage_ClientKicked,
 .TextMessage_ClientBanned,
-
 .TextMessage_ChannelCreated,
 .TextMessage_ChannelDeleted,
 .TextMessage_ChannelEdited,
 .TextMessage_ChannelMoved,
 .TextMessage_ServerEdited,
-
 .TextMessage_GroupAssigned,
 .TextMessage_GroupRevoked,
 .TextMessage_TalkPowerAssigned,
@@ -103,14 +81,10 @@ a:visited {
 .TextMessage_TalkPowerRequested {
 	color: rgb(216,216,216);
 }
-
 /* @end */
-
 /* @group Error Message Elements */
-
 .TextMessage_ServerError {
 	color: rgb(203,59,59);
 		font-weight: bold;
 }
-
 /* @end */

@@ -2,17 +2,10 @@
   TeamSpeak 3 Server Infoframe Template (EN)
   Created for DarkenTS Extended
   By Sven 'ScP' Paulsen, modified by Bluscream
-  Last updated: 12/08/2016
+  Last updated: 11/10/2017
 -->
-
 <style type="text/css">@import url('styles/DarkenTS Extended/style.css');</style>
-
-<!-- begin dummy container including tooltip (single line html table) -->
-
 <div class="InfoFrame" title="<table><tr><td><b><nobr>Current Client Connections:&nbsp;</nobr></b></td><td><nobr>%%SERVER_CLIENTS_ONLINE%% / %%SERVER_MAXCLIENTS%%</nobr></td></tr><tr><td><b><nobr>Total Client Connections:&nbsp;</nobr></b></td><td><nobr>%%SERVER_CLIENT_CONNECTIONS%%</nobr></td></tr><tr><td><b><nobr>Current ServerQuery Connections:&nbsp;</nobr></b></td><td><nobr>%%SERVER_QUERYCLIENTS_ONLINE%% / %%SERVER_MAXCLIENTS%%</nobr></td></tr><tr><td><b><nobr>Total ServerQuery Connections:&nbsp;</nobr></b></td><td><nobr>%%SERVER_QUERY_CLIENT_CONNECTIONS%%</nobr></td></tr><tr><td colspan=2><hr /></td></tr><tr><td><b><nobr>Software Version:&nbsp;</nobr></b></td><td><nobr>%%SERVER_VERSION%%</nobr></td></tr></table>">
-
-  <!-- begin title container -->
-
   <div class="InfoFrame_Title" dir="LTR">
     <img src="%%?SERVER_ICON%%" alt="
     <img src='iconpath:SERVER_GREEN' alt='' width='16' height='16' />
@@ -20,15 +13,11 @@
     &nbsp;
     <a href="channelid://0" class="TextMessage_ServerLink">%%SERVER_NAME%%</a>
   </div>
-
-  <hr />
-
-  <!-- begin basic info table -->
-
+  <hr/>
   <table class="InfoFrame_Table">
     <tr>
       <td class="Bottom Label">Version:</td>
-      <td class="Bottom">%%SERVER_VERSION_SHORT%% on %%SERVER_PLATFORM%% <img src="styles:/improved/media/platforms/%%SERVER_PLATFORM%%.png" alt="" /></td>
+      <td class="Bottom">%%SERVER_VERSION_SHORT%% on %%SERVER_PLATFORM%% <img src="styles:/DarkenTS Extended/media/platforms/%%SERVER_PLATFORM%%.png" alt=""/></td>
     </tr>
     <tr>
       <td class="Label">License:</td>
@@ -46,11 +35,7 @@
       <td>%%SERVER_UPTIME%%</td>
     </tr>
   </table>
-
-  <br />
-
-  <!-- begin connection info table -->
-
+  <br/>
   <table class="InfoFrame_Table">
     <tr>
       <td class="Label">Current Clients:</td>
@@ -63,11 +48,7 @@
     </tr>
     %%?PLUGIN_INFO_DATA%%
   </table>
-
-  <br />
-
-  <!-- begin refresh table -->
-
+  <br/>
   <table class="InfoFrame_Table">
     <tr><td>
       <img src="iconpath:REFRESH" height="12" width="12" alt="">
@@ -76,5 +57,4 @@
       <a class="Active" href="%%?SERVER_REFRESH_ACTIVE%%">Refresh</a>
     </td></tr>
   </table>
-
 </div>
