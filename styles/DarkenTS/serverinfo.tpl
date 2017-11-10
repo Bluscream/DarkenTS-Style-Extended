@@ -4,7 +4,7 @@
   By Sven 'ScP' Paulsen, modified by Bluscream
   Last updated: 11/10/2017
 -->
-<style type="text/css">@import url('styles/DarkenTS Extended/style.css');</style>
+<style type="text/css">@import url('styles/DarkenTS/style.css');</style>
 <div class="InfoFrame" title="<table><tr><td><b><nobr>Current Client Connections:&nbsp;</nobr></b></td><td><nobr>%%SERVER_CLIENTS_ONLINE%% / %%SERVER_MAXCLIENTS%%</nobr></td></tr><tr><td><b><nobr>Total Client Connections:&nbsp;</nobr></b></td><td><nobr>%%SERVER_CLIENT_CONNECTIONS%%</nobr></td></tr><tr><td><b><nobr>Current ServerQuery Connections:&nbsp;</nobr></b></td><td><nobr>%%SERVER_QUERYCLIENTS_ONLINE%% / %%SERVER_MAXCLIENTS%%</nobr></td></tr><tr><td><b><nobr>Total ServerQuery Connections:&nbsp;</nobr></b></td><td><nobr>%%SERVER_QUERY_CLIENT_CONNECTIONS%%</nobr></td></tr><tr><td colspan=2><hr /></td></tr><tr><td><b><nobr>Software Version:&nbsp;</nobr></b></td><td><nobr>%%SERVER_VERSION%%</nobr></td></tr></table>">
   <div class="InfoFrame_Title" dir="LTR">
     <img src="%%?SERVER_ICON%%" alt="
@@ -17,7 +17,7 @@
   <table class="InfoFrame_Table">
     <tr>
       <td class="Bottom Label">Version:</td>
-      <td class="Bottom">%%SERVER_VERSION_SHORT%% on %%SERVER_PLATFORM%% <img src="styles:/DarkenTS Extended/media/platforms/%%SERVER_PLATFORM%%.png" alt=""/></td>
+      <td class="Bottom">%%SERVER_VERSION_SHORT%% on %%SERVER_PLATFORM%% <img src="styles:/DarkenTS/gfx/platforms/%%SERVER_PLATFORM%%.png" alt=""/></td>
     </tr>
     <tr>
       <td class="Label">License:</td>

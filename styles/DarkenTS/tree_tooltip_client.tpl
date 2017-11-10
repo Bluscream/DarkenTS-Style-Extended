@@ -1,4 +1,4 @@
-<style type="text/css">@import url('styles/DarkenTS Extended/style.css');</style>
+<style type="text/css">@import url('styles/DarkenTS/style.css');</style>
 <table border="0">
 <tr><td class="label">%%TR_CLIENT_NAME%%:</td><td><span class="blue">%%CLIENT_NAME%%</span></td><td rowspan="3" class="noborder avatar">%%CLIENT_AVATAR%%</td></tr>
 <tr><td class="label">%%TR_CLIENT_PLATFORM%%</td><td>%%CLIENT_PLATFORM%%</td></tr>

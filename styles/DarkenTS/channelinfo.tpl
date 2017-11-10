@@ -4,7 +4,7 @@
   By Sven 'ScP' Paulsen, modified by Bluscream
   Last updated: 11/10/2017
 -->
-<style type="text/css">@import url('styles/DarkenTS Extended/style.css');</style>
+<style type="text/css">@import url('styles/DarkenTS/style.css');</style>
 <div class="InfoFrame" title="<table><tr><td><b><nobr>Channel ID:&nbsp;</nobr></b></td><td><nobr>%%CHANNEL_ID%%</nobr></td></tr><tr><td><b><nobr>Subscription Status:&nbsp;</nobr></b></td><td><nobr>%%CHANNEL_SUBSCRIPTION%%</nobr></td></tr><tr><td><b><nobr>Needed Talk Power:&nbsp;</nobr></b></td><td><nobr>%%CHANNEL_NEEDED_TALK_POWER%%</nobr></td></tr><tr><td colspan=2><hr /></td></tr><tr><td><b><nobr>Audio Quality:&nbsp;</nobr></b></td><td><nobr>%%CHANNEL_CODEC_QUALITY%% (Bitrate: %%CHANNEL_CODEC_BITRATE%%/s)</nobr></td></tr><tr><td><b><nobr>Audio Transmission:&nbsp;</nobr></b></td><td><nobr>%%CHANNEL_VOICE_DATA_ENCRYPTED%%</nobr></td></tr></table>">
   <div class="InfoFrame_Title" dir="LTR">
     <img src="%%?CHANNEL_ICON%%" alt="
@@ -20,7 +20,7 @@
       <td class="Label">Audio Codec:</td>
       <td>
         %%CHANNEL_CODEC%%
-        &nbsp;<img src="styles:/DarkenTS Extended/media/lock.png" alt="%%?CHANNEL_VOICE_DATA_ENCRYPTED_FLAG%%" />
+        &nbsp;<img src="styles:/DarkenTS/gfx/lock.png" alt="%%?CHANNEL_VOICE_DATA_ENCRYPTED_FLAG%%" />
       </td>
     </tr>
     <tr><td class="Label">Properties:</td><td class="Highlight">%%?CHANNEL_FLAGS%%</td></tr>

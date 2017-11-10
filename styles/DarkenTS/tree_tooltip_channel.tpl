@@ -1,4 +1,4 @@
-<style type="text/css">@import url('styles/DarkenTS Extended/style.css');</style>
+<style type="text/css">@import url('styles/DarkenTS/style.css');</style>
 <table id="info">
   <tr><td class="label">%%TR_CHANNEL_NAME%%:</td><td class="blue">%%CHANNEL_NAME%%</td></tr>
   <tr><td class="label">%%TR_CHANNEL_CODEC%%:</td><td>%%CHANNEL_CODEC%%</td></tr>
