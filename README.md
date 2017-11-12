@@ -7,3 +7,16 @@
 - The extended design should be active instantly.
 
 Please note that you have to re-install this extension everytime you update DarkenTS
+
+## Screenshots
+
+<details><summary>Client</summary>
+  
+![](https://i.imgur.com/cZPynPJ.png)
+</details><details><summary>Channel</summary>
+  
+![](https://i.imgur.com/X1yTUXr.png)
+</details><details><summary>Server</summary>
+  
+![](https://i.imgur.com/MfXg8J2.png)
+</details>
